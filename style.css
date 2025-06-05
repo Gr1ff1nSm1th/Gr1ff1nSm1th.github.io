@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: skyblue;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background-color: #87ceeb;
+}
+
+
+  #startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #333;
+  }
+
+#restartButton {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#startButton, #restartButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+}
