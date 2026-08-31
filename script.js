@@ -33,8 +33,8 @@ ground.y = canvas.height - ground.height;
 
 // === Pipes setup ===
 const pipes = [];
-const pipeWidth = 50;
-const pipeGap = 2500;
+const pipeWidth = 5000;
+const pipeGap = 150;
 let pipeSpawnTimer = 0;
 
 // === Event listeners ===
